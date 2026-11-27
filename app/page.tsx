@@ -323,7 +323,7 @@ export default function Dashboard() {
                    { step: 1, name: 'Coagulation' },
                    { step: 2, name: 'Flocculation' },
                    { step: 3, name: 'Sedimentation' },
-                   { step: 4, name: 'Completion' },
+                   { step: 4, name: 'Filtration' },
                  ].map((item, idx) => {
                     const isPast = phaseIdx > item.step;
                     const isActive = phaseIdx === item.step && isProcessActive;
